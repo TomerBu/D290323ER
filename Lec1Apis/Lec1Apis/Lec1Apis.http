@@ -1,0 +1,6 @@
+@Lec1Apis_HostAddress = http://localhost:5137
+
+GET {{Lec1Apis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

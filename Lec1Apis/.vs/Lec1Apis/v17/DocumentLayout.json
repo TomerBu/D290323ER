@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\data\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\data\\dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\lec1apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\lec1apis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|c:\\users\\nina\\source\\repos\\lec1apis\\lec1apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96389F56-EA2D-4278-AE03-C2D1E1C4813B}|Lec1Apis\\Lec1Apis.csproj|solutionrelative:lec1apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAO.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Data\\DAO.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Data\\DAO.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Data\\DAO.cs",
+              "RelativeToolTip": "Lec1Apis\\Data\\DAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T18:15:14.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\Product.cs",
+              "RelativeToolTip": "Lec1Apis\\Models\\Product.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:51:54.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Lec1Apis\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:32:54.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Controllers\\PeopleController.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "Lec1Apis\\Controllers\\PeopleController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:47:36.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Models\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\WeatherForecast.cs",
+              "RelativeToolTip": "Lec1Apis\\Models\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:45:12.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Models\\Person.cs",
+              "RelativeToolTip": "Lec1Apis\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:39:10.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Lec1Apis",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Lec1Apis.csproj",
+              "RelativeDocumentMoniker": "Lec1Apis\\Lec1Apis.csproj",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Lec1Apis.csproj",
+              "RelativeToolTip": "Lec1Apis\\Lec1Apis.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T15:37:34.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Lec1Apis\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:14:15.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Program.cs",
+              "RelativeDocumentMoniker": "Lec1Apis\\Program.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec1Apis\\Lec1Apis\\Program.cs",
+              "RelativeToolTip": "Lec1Apis\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:00:57.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

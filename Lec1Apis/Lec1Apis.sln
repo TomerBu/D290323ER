@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec1Apis", "Lec1Apis\Lec1Apis.csproj", "{96389F56-EA2D-4278-AE03-C2D1E1C4813B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96389F56-EA2D-4278-AE03-C2D1E1C4813B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96389F56-EA2D-4278-AE03-C2D1E1C4813B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96389F56-EA2D-4278-AE03-C2D1E1C4813B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96389F56-EA2D-4278-AE03-C2D1E1C4813B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB9B6F8-D7B2-4746-94FA-835056148DE8}
+	EndGlobalSection
+EndGlobal

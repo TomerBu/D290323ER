@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lec1Apis.props" />
+</Project>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\lec2webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\lec2webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\services\\mongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\services\\mongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|c:\\users\\nina\\source\\repos\\lec2webapi\\lec2webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{14A26582-636C-4C8E-9575-B514BEB784DF}|Lec2WebApi\\Lec2WebApi.csproj|solutionrelative:lec2webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Lec2WebApi\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Models\\Person.cs",
+              "RelativeToolTip": "Lec2WebApi\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:46:01.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MongoService.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Services\\MongoService.cs",
+              "RelativeDocumentMoniker": "Lec2WebApi\\Services\\MongoService.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Services\\MongoService.cs",
+              "RelativeToolTip": "Lec2WebApi\\Services\\MongoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:15:59.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lec2WebApi",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Lec2WebApi.csproj",
+              "RelativeDocumentMoniker": "Lec2WebApi\\Lec2WebApi.csproj",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Lec2WebApi.csproj",
+              "RelativeToolTip": "Lec2WebApi\\Lec2WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-17T15:15:24.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Lec2WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Program.cs",
+              "RelativeToolTip": "Lec2WebApi\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T15:04:44.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Lec2WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\appsettings.json",
+              "RelativeToolTip": "Lec2WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T15:00:48.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Lec2WebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Nina\\source\\repos\\Lec2WebApi\\Lec2WebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Lec2WebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:43:16.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

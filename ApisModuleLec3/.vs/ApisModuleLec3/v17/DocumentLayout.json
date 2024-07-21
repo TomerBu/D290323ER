@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D299323ER\\ApisModuleLec3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\IMovieRepository.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\IMovieRepository.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Repository\\IMovieRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:03:43.933Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Repository\\MovieRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:06:45.79Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwEoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:27:10.702Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

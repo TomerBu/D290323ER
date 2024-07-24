@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\D299323ER\\ApisModuleLec3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\dtos\\card\\cardaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\dtos\\card\\cardaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\apismodulelec3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\apismodulelec3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,116 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IMovieRepository.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\IMovieRepository.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\IMovieRepository.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\IMovieRepository.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Repository\\IMovieRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Program.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:03:43.933Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MovieRepository.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:06:45.79Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwEoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:27:10.702Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-24T17:50:06.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CardAddRequest.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\Card\\CardAddRequest.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\DTOs\\Card\\CardAddRequest.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\Card\\CardAddRequest.cs",
-              "RelativeToolTip": "ApisModuleLec3\\DTOs\\Card\\CardAddRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Movie.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Movie.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:49:19.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApisModuleLec3",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.csproj",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\ApisModuleLec3.csproj",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.csproj",
-              "RelativeToolTip": "ApisModuleLec3\\ApisModuleLec3.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-24T15:46:34.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Card.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Card.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Card.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Models\\Card.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswB4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:30:53.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Image.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Image.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Image.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Image.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Models\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:19:48.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Address.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Address.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Address.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Models\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:55:17.045Z",
+              "WhenOpened": "2024-07-24T17:47:53.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardRepository.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\CardRepository.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\CardRepository.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\CardRepository.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Repository\\CardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:44:48.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\Repository.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\Repository.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:36:26.04Z",
+              "EditorCaption": ""
             }
           ]
         }

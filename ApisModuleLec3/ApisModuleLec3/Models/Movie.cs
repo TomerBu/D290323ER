@@ -1,9 +1,10 @@
-﻿using MongoDB.Bson;
+﻿using ApisModuleLec3.Repository;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace ApisModuleLec3.Models
 {
-	public class Movie
+	public class Movie: IEntity
 	{
 		[BsonId]
 		[BsonRepresentation(BsonType.ObjectId)]

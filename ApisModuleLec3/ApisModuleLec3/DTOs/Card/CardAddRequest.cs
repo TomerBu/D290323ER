@@ -26,3 +26,6 @@ namespace ApisModuleLec3.DTOs.Card
 		public required Address Address { get; set; }
 	}
 }
+
+
+//CardDto => Card

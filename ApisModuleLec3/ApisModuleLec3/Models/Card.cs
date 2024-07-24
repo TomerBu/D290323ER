@@ -1,10 +1,11 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using ApisModuleLec3.Repository;
+using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
 namespace ApisModuleLec3.Models
 {
-	public class Card
+	public class Card:IEntity
 	{
 		[BsonId]
 		[BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]

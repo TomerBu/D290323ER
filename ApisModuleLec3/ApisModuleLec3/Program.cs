@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 
 //make our objects available to the rest of the app:
 builder.Services.AddSingleton<IMongoService, MongoService>();
-builder.Services.AddSingleton<IMovieRepository, MovieRepository>();
+builder.Services.AddSingleton<IRepository<Movie>, MovieRepository>();
 //todo: make this a scoped service
 builder.Services.AddSingleton<IRepository<Card>, CardRepository>();
 

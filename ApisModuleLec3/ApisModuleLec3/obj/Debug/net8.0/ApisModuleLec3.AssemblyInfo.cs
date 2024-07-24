@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApisModuleLec3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fbe42a6a40966095ad0926de5b02b99328fc20e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+accd00692a7c3da2e2f0550ea7f8203546df1ebc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApisModuleLec3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApisModuleLec3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,12 +7,12 @@ namespace ApisModuleLec3.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]
-	public class MoviesController(IMovieRepository repo) : ControllerBase
+	public class MoviesController(IRepository<Movie> repo) : ControllerBase
 	{
 		[HttpGet]
 		public async Task<IActionResult> Get()
 		{
-			var movies = await repo.GetAllMovies();
+			var movies = await repo.GetAllAsync();
 			return Ok(movies);
 		}
 
@@ -34,7 +34,7 @@ namespace ApisModuleLec3.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Post([FromBody] Movie movie)
 		{
-			var result = await repo.AddMovieAsync(movie);
+			var result = await repo.AddAsync(movie);
 
 			//status 201 = Created!
 			//TODO: GET BY ID => created!

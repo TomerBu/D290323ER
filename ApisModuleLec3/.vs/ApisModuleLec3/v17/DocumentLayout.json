@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\D299323ER\\ApisModuleLec3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\apismodulelec3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\apismodulelec3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\mappings\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\mappings\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,59 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Name.cs",
               "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Name.cs",
               "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Name.cs",
               "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Name.cs",
               "RelativeToolTip": "ApisModuleLec3\\Models\\Name.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T17:59:49.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
-              "RelativeToolTip": "ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T17:59:43.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApisModuleLec3.http",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.http",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\ApisModuleLec3.http",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.http",
-              "RelativeToolTip": "ApisModuleLec3\\ApisModuleLec3.http",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAuwFgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-07-28T17:56:31.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ApisModuleLec3\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T17:46:01.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
               "RelativeDocumentMoniker": "ApisModuleLec3\\Program.cs",
@@ -110,25 +72,11 @@
               "RelativeToolTip": "ApisModuleLec3\\Program.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T17:30:30.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T17:30:30.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterDtoExtensions.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T17:08:51.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
               "RelativeDocumentMoniker": "ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
@@ -140,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AppRole.cs",
               "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\AppRole.cs",
               "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\AppRole.cs",
@@ -148,8 +96,7 @@
               "RelativeToolTip": "ApisModuleLec3\\Models\\AppRole.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T16:47:19.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T16:47:19.918Z"
             }
           ]
         }

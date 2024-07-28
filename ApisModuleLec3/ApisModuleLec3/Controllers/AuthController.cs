@@ -26,5 +26,19 @@ namespace ApisModuleLec3.Controllers
 			}
 			return BadRequest(result);
 		}
+
+		[HttpPost("login")]
+		public async Task<IActionResult> Login([FromBody] LoginDto dto)
+		{
+			var result = await signInManager.PasswordSignInAsync(dto.Email, dto.Password, false, false);
+
+			if (result.Succeeded)
+			{
+				return Ok(result);
+			}
+
+			//TODO : Implement JWT Token
+			return Unauthorized(result);
+		}
 	}
 }

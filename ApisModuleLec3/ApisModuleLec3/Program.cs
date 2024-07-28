@@ -1,10 +1,26 @@
 using ApisModuleLec3.Models;
 using ApisModuleLec3.Repository;
 using ApisModuleLec3.Service;
+using AspNetCore.Identity.Mongo;
+using MongoDB.Bson;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddIdentityMongoDbProvider<AppUser, AppRole, ObjectId>(identity =>
+{
+	identity.Password.RequiredLength = 9;
+	identity.Password.RequireLowercase = true;
+	identity.Password.RequireUppercase = true;
+	identity.Password.RequireDigit = true;
+	identity.User.RequireUniqueEmail = true;
+	identity.Password.RequireNonAlphanumeric = true;
+	identity.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+}, mongo =>
+{
+	mongo.ConnectionString = connectionString;
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\D299323ER\\ApisModuleLec3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\mappings\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\mappings\\registerdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\repository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,87 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Program.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:30:30.576Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:02:32.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovieRepository.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Repository\\MovieRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:57:29.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Program.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA8AAABBAAAA",
+              "Title": "RegisterDtoExtensions.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Mappings\\RegisterDtoExtensions.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:50:06.746Z",
+              "WhenOpened": "2024-07-28T17:08:51.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
+              "RelativeToolTip": "ApisModuleLec3\\DTOs\\User\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:06:45.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
+              "RelativeToolTip": "ApisModuleLec3\\DTOs\\User\\RegisterDto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:52:14.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\Movie.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\Movie.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Models\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAcAAAA",
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\AppRole.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\AppRole.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\AppRole.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Models\\AppRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:47:53.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CardRepository.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\CardRepository.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\CardRepository.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\CardRepository.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Repository\\CardRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:44:48.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "ApisModuleLec3\\Repository\\Repository.cs",
-              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Repository\\Repository.cs",
-              "RelativeToolTip": "ApisModuleLec3\\Repository\\Repository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwB8AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T17:36:26.04Z",
+              "WhenOpened": "2024-07-28T16:47:19.918Z",
               "EditorCaption": ""
             }
           ]

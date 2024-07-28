@@ -3,4 +3,61 @@
 GET {{ApisModuleLec3_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+### Post a new Card:
+POST {{ApisModuleLec3_HostAddress}}/api/cards
+Content-Type: application/json
+
+{
+  "title": "a wonderful new card",
+  "subtitle": "a test value for this card",
+  "description": "a test value for new card\na test value for new card\n",
+  "phone": "012-3211234",
+  "email": "qwe@gmail.com",
+  "web": "www.bing.com",
+  "image": {
+    "url": "https://img.izismile.com/img/img13/20201030/640/you_have_never_seen_something_like_this_640_36.jpg",
+    "alt": "image of something"
+  },
+  "address": {
+    "state": "IL",
+    "country": "Israel",
+    "city": "Arad",
+    "street": "Shoham",
+    "houseNumber": 5,
+    "zip": 8920435
+  }
+}
+
+
+### Post another new Card:
+POST {{ApisModuleLec3_HostAddress}}/api/cards
+Content-Type: application/json
+
+{
+  "title": "Pizza Card",
+  "subtitle": "a pizza card",
+  "description": "a test value for new card\na test value for new card\n",
+  "phone": "012-3211234",
+  "email": "pizza@gmail.com",
+  "web": "www.pizza.com",
+  "image": {
+    "url": "https://img.izismile.com/img/img13/20201030/640/you_have_never_seen_something_like_this_640_36.jpg",
+    "alt": "image of something"
+  },
+  "address": {
+    "state": "IL",
+    "country": "Israel",
+    "city": "Arad",
+    "street": "Shoham",
+    "houseNumber": 5,
+    "zip": 8920435
+  }
+}
+
+### Get all the cards:
+GET {{ApisModuleLec3_HostAddress}}/api/cards
+
+### Get a specific card by id:
+GET {{ApisModuleLec3_HostAddress}}/api/cards/66a65aff911ef68c782b80eb
+
+

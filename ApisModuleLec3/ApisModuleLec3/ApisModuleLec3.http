@@ -88,8 +88,6 @@ Content-Type: application/json
   "isBusiness": true
 }
 
-
-
 ### login a User:
 POST {{ApisModuleLec3_HostAddress}}/api/auth/login
 Content-Type: application/json

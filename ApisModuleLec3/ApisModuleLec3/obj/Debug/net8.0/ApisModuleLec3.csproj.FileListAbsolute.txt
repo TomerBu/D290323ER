@@ -93,3 +93,12 @@ C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\vi\Humanizer.resourc
 C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
 C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
 C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\AspNetCore.Identity.Mongo.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\D299323ER\ApisModuleLec3\ApisModuleLec3\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -9,4 +9,4 @@ namespace ApisModuleLec3.Models
 	}
 }
 
-//models => dtos => repository => controller => program.cs
+//models => dtos => repository => controller => program.cs => postman/http

@@ -61,3 +61,29 @@ GET {{ApisModuleLec3_HostAddress}}/api/cards
 GET {{ApisModuleLec3_HostAddress}}/api/cards/66a65aff911ef68c782b80eb
 
 
+### Register a new User:
+POST {{ApisModuleLec3_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "name": {
+    "first": "Ell",
+    "last": "Vis"
+  },
+  "phone": "0512345567",
+  "email": "ellvis2@email.com",
+  "password": "Abc!123Abc",
+  "image": {
+    "url": "https://fastly.picsum.photos/id/975/200/300.jpg",
+    "alt": "The alt"
+  },
+  "address": {
+    "state": "IL",
+    "country": "Israel",
+    "city": "Arad",
+    "street": "Shoham",
+    "houseNumber": 5,
+    "zip": 8920435
+  },
+  "isBusiness": true
+}

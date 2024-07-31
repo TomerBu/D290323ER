@@ -2,6 +2,7 @@
 using ApisModuleLec3.Mappings;
 using ApisModuleLec3.Models;
 using ApisModuleLec3.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +12,9 @@ namespace ApisModuleLec3.Controllers
 	[ApiController]
 	public class CardsController(IRepository<Card> cardsRepo) : ControllerBase
 	{
+		
 		[HttpPost]
+		[Authorize]
 		public async Task<IActionResult> Post([FromBody] CardAddRequest dto)
 		{
 			if (!ModelState.IsValid)

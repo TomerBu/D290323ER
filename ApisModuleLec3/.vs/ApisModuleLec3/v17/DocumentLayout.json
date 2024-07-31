@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\D299323ER\\ApisModuleLec3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\apismodulelec3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\apismodulelec3.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\auth\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\auth\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\auth\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\auth\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|c:\\d299323er\\apismodulelec3\\apismodulelec3\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF443D1B-27AA-4DFB-B3EB-7A8CC193BA39}|ApisModuleLec3\\ApisModuleLec3.csproj|solutionrelative:apismodulelec3\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Auth\\Utils.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Auth\\Utils.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Auth\\Utils.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Auth\\Utils.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:05:20.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Auth\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Auth\\JwtTokenService.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Auth\\JwtTokenService.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Auth\\JwtTokenService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:04:50.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApisModuleLec3.http",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.http",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\ApisModuleLec3.http",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\ApisModuleLec3.http",
+              "RelativeToolTip": "ApisModuleLec3\\ApisModuleLec3.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-31T18:01:24.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\CardsController.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\CardsController.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Controllers\\CardsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwBAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:59:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Program.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Program.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:44:01.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Models\\JwtSettings.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Models\\JwtSettings.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Models\\JwtSettings.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:38:54.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\appsettings.json",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\appsettings.json",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\appsettings.json",
+              "RelativeToolTip": "ApisModuleLec3\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T15:31:24.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ApisModuleLec3\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\D299323ER\\ApisModuleLec3\\ApisModuleLec3\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ApisModuleLec3\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:22:48.15Z",
+              "EditorCaption": ""
             }
           ]
         }

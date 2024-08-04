@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\lec7practice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\lec7practice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\mappings\\addproductdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\mappings\\addproductdtoextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\mappings\\productextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\mappings\\productextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|c:\\users\\tomerbu\\source\\repos\\lec7practice\\lec7practice\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D2776-9FE8-445E-80F2-5053F21DA0A7}|Lec7Practice\\Lec7Practice.csproj|solutionrelative:lec7practice\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Mappings\\ProductExtensions.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\Mappings\\ProductExtensions.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Mappings\\ProductExtensions.cs",
+              "RelativeToolTip": "Lec7Practice\\Mappings\\ProductExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:33:26.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddProductDtoExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Mappings\\AddProductDtoExtensions.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\Mappings\\AddProductDtoExtensions.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Mappings\\AddProductDtoExtensions.cs",
+              "RelativeToolTip": "Lec7Practice\\Mappings\\AddProductDtoExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:33:09.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\DTOs\\AddProductDto.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\DTOs\\AddProductDto.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\DTOs\\AddProductDto.cs",
+              "RelativeToolTip": "Lec7Practice\\DTOs\\AddProductDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:15:45.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\DTOs\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\DTOs\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\DTOs\\ProductResponseDto.cs",
+              "RelativeToolTip": "Lec7Practice\\DTOs\\ProductResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T17:15:25.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lec7Practice.http",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Lec7Practice.http",
+              "RelativeDocumentMoniker": "Lec7Practice\\Lec7Practice.http",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Lec7Practice.http",
+              "RelativeToolTip": "Lec7Practice\\Lec7Practice.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-04T16:07:13.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Controllers\\ProductsController.cs*",
+              "RelativeToolTip": "Lec7Practice\\Controllers\\ProductsController.cs*",
+              "ViewState": "AQIAADoAAAAAAAAAAAAgwEcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T16:00:05.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lec7Practice\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Models\\Product.cs*",
+              "RelativeToolTip": "Lec7Practice\\Models\\Product.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T15:57:40.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

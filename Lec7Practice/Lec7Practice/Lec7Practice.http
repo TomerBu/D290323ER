@@ -1,0 +1,41 @@
+@Lec7Practice_HostAddress = http://localhost:5160
+
+
+GET {{Lec7Practice_HostAddress}}/api/products/
+
+
+### Add a product:
+POST {{Lec7Practice_HostAddress}}/api/products/
+Content-Type: application/json
+
+{
+  "id": "456", 
+  "name": "Coca cola",
+  "price": 6.9
+}
+
+### Add a product:
+POST {{Lec7Practice_HostAddress}}/api/products/
+Content-Type: application/json
+
+{
+  "id": "123", 
+  "name": "Bamba",
+  "price": 6.9
+}
+
+
+
+### Delete a product:
+DELETE {{Lec7Practice_HostAddress}}/api/products/456
+
+
+### Update a product with id = 123
+PUT {{Lec7Practice_HostAddress}}/api/products/123
+Content-Type:application/json
+
+{
+  "id": "123",
+  "Name": "Bisli",
+  "price": 6.9
+}

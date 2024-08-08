@@ -25,7 +25,6 @@ namespace Lec7Practice.Controllers
             //    res.Add(product.ToDto());
             //}
 
-
             return Ok(Products.Select(p => p.ToDto()));
         }
 

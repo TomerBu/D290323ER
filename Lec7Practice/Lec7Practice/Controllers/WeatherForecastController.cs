@@ -1,33 +1,37 @@
+using Lec7Practice.Utils;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lec7Practice.Controllers
+namespace Lec7Practice.Controllers;
+
+[ApiController]
+[Route("[controller]")]
+public class WeatherForecastController(ILogger<WeatherForecastController> logger) : ControllerBase
 {
-	[ApiController]
-	[Route("[controller]")]
-	public class WeatherForecastController : ControllerBase
+
+	[HttpGet]
+	public IActionResult Get()
 	{
-		private static readonly string[] Summaries = new[]
-		{
-			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-		};
+		//http://127.0.0.1:5173
+		//https://192.168.1.2
+		//https://myclient.com
 
-		private readonly ILogger<WeatherForecastController> _logger;
 
-		public WeatherForecastController(ILogger<WeatherForecastController> logger)
-		{
-			_logger = logger;
-		}
+		
 
-		[HttpGet(Name = "GetWeatherForecast")]
-		public IEnumerable<WeatherForecast> Get()
-		{
-			return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-			{
-				Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-				TemperatureC = Random.Shared.Next(-20, 55),
-				Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-			})
-			.ToArray();
-		}
+		//Console.WriteLine("\u001b[31mHello World\u001b[0m");
+		Console.WriteLine(Chalk.Red("this is a ").Blue("nice").Green("dog").Yellow("!"));
+
+		logger.Log(LogLevel.Trace, "trace message");
+		logger.LogTrace("trace");
+		logger.LogDebug("debug");
+		logger.LogInformation(
+			Chalk.Cyan("Foo").Red("....")
+		);
+		logger.LogWarning("warning");
+		logger.LogError("error");
+		logger.LogCritical("critical");
+
+
+		return Ok(new { message = "cool" });
 	}
 }

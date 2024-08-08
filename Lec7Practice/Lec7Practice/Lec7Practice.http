@@ -27,15 +27,20 @@ Content-Type: application/json
 
 
 ### Delete a product:
-DELETE {{Lec7Practice_HostAddress}}/api/products/456
+DELETE {{Lec7Practice_HostAddress}}/api/products/11679fe6-31c6-43a9-901c-6cd547036e6c
 
 
 ### Update a product with id = 123
-PUT {{Lec7Practice_HostAddress}}/api/products/123
+PUT {{Lec7Practice_HostAddress}}/api/products/5bddf14f-d106-425b-8901-d38e75400bfb
 Content-Type:application/json
 
 {
   "id": "123",
   "Name": "Bisli",
-  "price": 6.9
+  "price": 7.39
 }
+
+
+
+### GET the weather controller
+GET {{Lec7Practice_HostAddress}}/WeatherForecast

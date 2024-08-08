@@ -30,3 +30,5 @@ C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\obj\Debug\net8.0\refint\
 C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\obj\Debug\net8.0\Lec7Practice.pdb
 C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\obj\Debug\net8.0\Lec7Practice.genruntimeconfig.cache
 C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\obj\Debug\net8.0\ref\Lec7Practice.dll
+C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\TomerBu\source\repos\Lec7Practice\Lec7Practice\bin\Debug\net8.0\appsettings.Tests.json

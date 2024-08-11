@@ -10,11 +10,17 @@
     </thead>
 
     <tbody>
-        @foreach(var item in Model)
+        @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Title</td>
+               
+                <td>
+                    <a class="text-dark text-decoration-none" href="/books/details/@item.Id">
+                      @item.Title
+                    </a>
+                </td>
                 <td>@item.Description</td>
+
             </tr>
         }
     </tbody>

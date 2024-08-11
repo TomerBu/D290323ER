@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\about\\social.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\about\\social.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Lec1\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T17:09:57.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Lec1\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Lec1\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:08:53.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Models\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "Lec1\\Models\\BookViewModel.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Models\\BookViewModel.cs",
+              "RelativeToolTip": "Lec1\\Models\\BookViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T17:06:22.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lec1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:51:09.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Lec1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:49:55.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Social.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Social.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\About\\Social.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Social.cshtml",
+              "RelativeToolTip": "Lec1\\Views\\About\\Social.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:43:01.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Lec1\\Views\\About\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T16:40:54.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Lec1\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Lec1\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T15:45:24.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Program.cs",
+              "RelativeDocumentMoniker": "Lec1\\Program.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Program.cs",
+              "RelativeToolTip": "Lec1\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T15:36:09.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\appsettings.json",
+              "RelativeDocumentMoniker": "Lec1\\appsettings.json",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\appsettings.json",
+              "RelativeToolTip": "Lec1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-11T15:34:25.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

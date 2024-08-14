@@ -1,0 +1,22 @@
+﻿@model List<Person>
+
+<h1>People</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var p in Model)
+        {
+            <tr onclick="window.location.href='/People/Details/@p.Id'">
+                <td>@p.Id</td>
+                <td>@p.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

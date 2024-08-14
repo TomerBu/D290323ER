@@ -1,0 +1,15 @@
+﻿@model List<MovieViewModel>
+
+<h1>Movies</h1>
+
+@foreach(var item in Model)
+{
+    <div class="card mb-4" style="width: 18rem;">
+          <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
+          <div class="card-body">
+            <h5 class="card-title">@item.Title</h5>
+            <p class="card-text">@item.Overview</p>
+            <a href="/Movies/details/@item.Id" class="btn btn-primary">Show Details</a>
+          </div>
+    </div>
+}

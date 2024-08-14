@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\models\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|c:\\d290323er\\asp.pages.module\\lec1\\lec1\\views\\about\\social.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79E7FF64-D220-4532-8138-430AA65F3F10}|Lec1\\Lec1.csproj|solutionrelative:lec1\\views\\about\\social.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lec1\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\Books\\Index.cshtml*",
+              "RelativeToolTip": "Lec1\\Views\\Books\\Index.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T14:33:38.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Lec1\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Lec1\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAABAAAA",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Controllers\\BooksController.cs*",
+              "RelativeToolTip": "Lec1\\Controllers\\BooksController.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T18:44:18.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookViewModel.cs",
               "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Models\\BookViewModel.cs",
               "RelativeDocumentMoniker": "Lec1\\Models\\BookViewModel.cs",
               "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Models\\BookViewModel.cs",
               "RelativeToolTip": "Lec1\\Models\\BookViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T18:43:18.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Social.cshtml",
-              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Social.cshtml",
-              "RelativeDocumentMoniker": "Lec1\\Views\\About\\Social.cshtml",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec1\\Lec1\\Views\\About\\Social.cshtml",
-              "RelativeToolTip": "Lec1\\Views\\About\\Social.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T18:41:52.657Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:01:54.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\People\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\People\\Details.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\People\\Details.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\People\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T17:59:03.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T17:38:58.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\People\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\People\\Index.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\People\\Index.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\People\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T17:29:04.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "Lec2\\Controllers\\PeopleController.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "Lec2\\Controllers\\PeopleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T17:28:27.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Program.cs",
+              "RelativeDocumentMoniker": "Lec2\\Program.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Program.cs",
+              "RelativeToolTip": "Lec2\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T17:12:32.906Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

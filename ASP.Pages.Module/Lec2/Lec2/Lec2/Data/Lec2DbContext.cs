@@ -6,4 +6,5 @@ public class Lec2DbContext(DbContextOptions<Lec2DbContext> options) : DbContext(
 {
     //ORM = Object Relational Mapper
     public DbSet<Person> People { get; set; }
+    public DbSet<Dog> Dogs { get; set; }
 }

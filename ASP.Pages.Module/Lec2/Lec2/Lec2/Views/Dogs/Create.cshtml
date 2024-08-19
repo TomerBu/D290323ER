@@ -1,0 +1,17 @@
+﻿@model Dog
+
+<h1>Add your dog</h1>
+
+<form method="post" asp-controller="Dogs" asp-action="Create">
+    <div class="form-group mb-4">
+        <label asp-for="Breed" class="form-label">Dog Breed</label>
+        <input asp-for="Breed"  placeholder="Breed" class="form-control" />
+        <span asp-validation-for="Breed" class="text-danger"/>
+    </div>
+
+    <button class="btn btn-primary">Add</button>
+</form>
+ 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

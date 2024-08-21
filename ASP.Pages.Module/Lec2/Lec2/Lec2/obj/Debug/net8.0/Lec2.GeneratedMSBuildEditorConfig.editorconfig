@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lec2
 build_property.RootNamespace = Lec2
@@ -20,6 +28,14 @@ build_property._RazorSourceGeneratorDebug =
 
 [C:/D290323ER/ASP.Pages.Module/Lec2/Lec2/Lec2/Views/Dogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D290323ER/ASP.Pages.Module/Lec2/Lec2/Lec2/Views/Dogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D290323ER/ASP.Pages.Module/Lec2/Lec2/Lec2/Views/Dogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/D290323ER/ASP.Pages.Module/Lec2/Lec2/Lec2/Views/Dogs/Index.cshtml]

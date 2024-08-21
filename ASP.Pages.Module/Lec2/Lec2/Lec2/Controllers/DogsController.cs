@@ -16,21 +16,35 @@ public class DogsController(Lec2DbContext dbContext) : Controller
         return View(dogs); //Views/Dogs/Index.cshtml
     }
 
+
+    //GET /dogs/details
+    [HttpGet]
+    public async Task<IActionResult> Details(int id)
+    {
+        var dog = await dbContext.Dogs.FindAsync(id);
+
+        if (dog is null)
+        {
+            return NotFound($"Dogs with id = {id} Not Found");
+        }
+
+        return View(dog);
+    }
+
+
     //GET /dogs/create
     [HttpGet]
     public IActionResult Create()
     {
         return View(); // Views/Dogs/Create.cshtml
     }
-
-    //POST /dogs/create
     [HttpPost]
     public async Task<IActionResult> Create(Dog d)
     {
         if (ModelState.IsValid)
         {
             //add the dog to the database
-            var result = await dbContext.Dogs.AddAsync(d);
+            await dbContext.Dogs.AddAsync(d);
             await dbContext.SaveChangesAsync();
 
             //now we got an id
@@ -40,5 +54,55 @@ public class DogsController(Lec2DbContext dbContext) : Controller
 
         return View(d);
     }
+
+    //GET /dogs/Edit/id
+    [HttpGet]
+    public async Task<IActionResult> Edit(int? id)
+    {
+        if (id is null)
+        {
+            return NotFound();
+        }
+
+        var dog = await dbContext.Dogs.FindAsync(id);
+
+        if (dog is null)
+        {
+            return NotFound();
+        }
+
+        return View(dog);//CREATE THE VIEW
+    }
+
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Edit(Dog? dog)
+    {
+        if (dog is null)
+        {
+            return NotFound();
+        }
+
+        //if no such dog => not found
+        if (!dbContext.Dogs.Any(o => o.Id == dog.Id))
+        {
+            return NotFound();
+        }
+
+        //id = 4, breed = "k"
+        if (ModelState.IsValid)
+        {
+            dbContext.Update(dog);
+            await dbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        else
+        {
+            return View(dog);
+        }
+    }
 }
-//hyper text transfer protocol <html><body>
+
+
+

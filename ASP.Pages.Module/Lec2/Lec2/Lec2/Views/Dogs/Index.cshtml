@@ -2,14 +2,36 @@
 
 <h1>Dogs</h1>
 
-<ul>
-    @foreach (var dog in Model)
-    {
-        <li>@dog.Breed</li>
-    }
-</ul>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Breed</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dog in Model)
+        {
+            <tr>
+                <td>@dog.Id</td>
+                <td>@dog.Breed</td>
+                <td class="d-flex flex-row gap-2">
+                    <a aria-label="Edit" asp-controller="Dogs" asp-action="Edit" asp-route-id="@dog.Id">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                    <a aria-label="Delete" asp-controller="Dogs" asp-action="Delete" asp-route-id="@dog.Id">
+                        <i class="bi bi-trash"></i>
+                    </a>
+                    <a aria-label="Details" asp-controller="Dogs" asp-action="Details" asp-route-id="@dog.Id">
+                        <i class="bi bi-info-circle"></i>
+                    </a>
+                </td>
+        </tr>
+        }
+    </tbody>
+</table>
 
-<hr />
+<hr/>
 
-<a asp-controller="Dogs" asp-action="Create">Add a dog</a>
-<a href="/Dogs/Create">Add a dog</a>
+<a class="btn btn-primary" href="/dogs/create">Add A Dog</a>

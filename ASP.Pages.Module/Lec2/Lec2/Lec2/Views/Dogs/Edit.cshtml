@@ -1,0 +1,29 @@
+﻿@model Dog
+
+@{
+    ViewData["Title"] = "Edit Dog";
+}
+<div class="p-4">
+    <h1 class="text-start">Edit Dog</h1>
+    <hr />
+
+    <form method="post" asp-action="Edit">
+        <input type="hidden" asp-for="@Model.Id" />  
+
+        <div class="form-group">
+            <label asp-for="@Model.Breed" />
+            <input asp-for="@Model.Breed" />
+            <span asp-validation-for="@Model.Breed" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

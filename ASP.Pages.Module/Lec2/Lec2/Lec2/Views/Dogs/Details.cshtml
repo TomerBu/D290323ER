@@ -1,0 +1,22 @@
+﻿@model Dog
+
+@{
+    ViewData["Title"] = "Dog Details";
+}
+<div>
+    <h1>Dog Details</h1>
+    <hr />
+    <dl class="row">
+        <dt class = "col-12 col-sm-2">
+            @Html.DisplayNameFor(m => m.Breed)
+        </dt>
+        <dd class = "col-12 col-sm-10">
+            @Html.DisplayFor(m => m.Breed)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+ 

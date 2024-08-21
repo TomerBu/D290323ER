@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\wwwroot\\lib\\bootstrap\\dist\\css\\_bootswatch.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\_bootswatch.scss"
+    },
+    {
+      "Id": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\wwwroot\\lib\\bootstrap\\dist\\css\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\_variables.scss"
+    },
+    {
       "Id": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

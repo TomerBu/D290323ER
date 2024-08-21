@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\dogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\dogs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\dogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\dogs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\controllers\\dogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\controllers\\dogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\dogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\views\\dogs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|solutionrelative:lec2\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DB886D3-C25C-4C06-B5F2-A2760A7EFE06}|Lec2\\Lec2.csproj|c:\\d290323er\\asp.pages.module\\lec2\\lec2\\lec2\\views\\dogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,72 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dog.cs",
-              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Models\\Dog.cs",
-              "RelativeDocumentMoniker": "Lec2\\Models\\Dog.cs",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Models\\Dog.cs",
-              "RelativeToolTip": "Lec2\\Models\\Dog.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T18:08:11.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Lec2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Lec2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADUAAAAmAAAA",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\Dogs\\Edit.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Edit.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\Dogs\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T17:59:21.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Create.cshtml",
-              "RelativeDocumentMoniker": "Lec2\\Views\\Dogs\\Create.cshtml",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Create.cshtml",
-              "RelativeToolTip": "Lec2\\Views\\Dogs\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T16:57:07.825Z",
+              "WhenOpened": "2024-08-21T16:42:40.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lec2\\Views\\Dogs\\Index.cshtml",
-              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Index.cshtml",
-              "RelativeToolTip": "Lec2\\Views\\Dogs\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T16:43:38.626Z",
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Models\\Dog.cs",
+              "RelativeDocumentMoniker": "Lec2\\Models\\Dog.cs",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Models\\Dog.cs",
+              "RelativeToolTip": "Lec2\\Models\\Dog.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T15:59:01.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\Dogs\\Details.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Details.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\Dogs\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T15:51:06.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DogsController.cs",
               "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Controllers\\DogsController.cs",
               "RelativeDocumentMoniker": "Lec2\\Controllers\\DogsController.cs",
               "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Controllers\\DogsController.cs",
               "RelativeToolTip": "Lec2\\Controllers\\DogsController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAYwBsAAAAxAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAqwGIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T16:37:43.875Z",
+              "WhenOpened": "2024-08-21T15:42:21.831Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T14:57:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lec2\\Views\\Dogs\\Index.cshtml",
+              "ToolTip": "C:\\D290323ER\\ASP.Pages.Module\\Lec2\\Lec2\\Lec2\\Views\\Dogs\\Index.cshtml",
+              "RelativeToolTip": "Lec2\\Views\\Dogs\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T16:43:38.626Z"
             }
           ]
         }

@@ -7,23 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Lec5.Data;
 using Lec5.Models;
-using Lec5.ViewModels;
 
 namespace Lec5.Controllers;
 
-public class SongsController(Lec5Context context) : Controller
+public class CapitalsController(Lec5Context context) : Controller
 {
 
-    // GET: Songs
+    // GET: Capitals
     public async Task<IActionResult> Index()
     {
-        //SELECT * FROM Song JOIN Album ON ...
-        var songs = await context.Songs.Include(s => s.Album).ToListAsync();
-       
-        return View(songs);
+        var lec5Context = context.Capitals.Include(c => c.Country);
+        return View(await lec5Context.ToListAsync());
     }
 
-    // GET: Songs/Details/5
+    // GET: Capitals/Details/5
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -31,46 +28,43 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs
-            .Include(s => s.Album)
+        var capital = await context.Capitals
+            .Include(c => c.Country)
             .FirstOrDefaultAsync(m => m.Id == id);
-
-        if (song == null)
+        if (capital == null)
         {
             return NotFound();
         }
 
-        return View(song);
+        return View(capital);
     }
 
-    // GET: Songs/Create
+    // GET: Capitals/Create
     public async Task<IActionResult> Create()
     {
-        //SHOW A Dropdown of albums:
-        var albums = await context.Albums.ToListAsync();
- 
-        var vm = new SongAlbumsViewModel() { Albums = albums};
-
-        return View(vm);
+        var countries = await context.Countries.Where(c => c.Capital == null).ToListAsync();
+        ViewData["CountryId"] = new SelectList(countries, "Id", "Name");
+        return View();
     }
 
-    // POST: Songs/Create
+    // POST: Capitals/Create
     // To protect from overposting attacks, enable the specific properties you want to bind to.
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create(SongAlbumsViewModel vm)
+    public async Task<IActionResult> Create([Bind("Id,Name,CountryId")] Capital capital)
     {
         if (ModelState.IsValid)
         {
-            context.Add(vm.Song);
+            context.Add(capital);
             await context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        return View(vm);
+        ViewData["CountryId"] = new SelectList(context.Countries, "Id", "Name", capital.CountryId);
+        return View(capital);
     }
 
-    // GET: Songs/Edit/5
+    // GET: Capitals/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -78,22 +72,23 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs.FindAsync(id);
-        if (song == null)
+        var capital = await context.Capitals.FindAsync(id);
+        if (capital == null)
         {
             return NotFound();
         }
-        return View(song);
+        ViewData["CountryId"] = new SelectList(context.Countries, "Id", "Name", capital.CountryId);
+        return View(capital);
     }
 
-    // POST: Songs/Edit/5
+    // POST: Capitals/Edit/5
     // To protect from overposting attacks, enable the specific properties you want to bind to.
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Title")] Song song)
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CountryId")] Capital capital)
     {
-        if (id != song.Id)
+        if (id != capital.Id)
         {
             return NotFound();
         }
@@ -102,12 +97,12 @@ public class SongsController(Lec5Context context) : Controller
         {
             try
             {
-                context.Update(song);
+                context.Update(capital);
                 await context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!SongExists(song.Id))
+                if (!CapitalExists(capital.Id))
                 {
                     return NotFound();
                 }
@@ -118,10 +113,11 @@ public class SongsController(Lec5Context context) : Controller
             }
             return RedirectToAction(nameof(Index));
         }
-        return View(song);
+        ViewData["CountryId"] = new SelectList(context.Countries, "Id", "Name", capital.CountryId);
+        return View(capital);
     }
 
-    // GET: Songs/Delete/5
+    // GET: Capitals/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -129,33 +125,34 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs
+        var capital = await context.Capitals
+            .Include(c => c.Country)
             .FirstOrDefaultAsync(m => m.Id == id);
-        if (song == null)
+        if (capital == null)
         {
             return NotFound();
         }
 
-        return View(song);
+        return View(capital);
     }
 
-    // POST: Songs/Delete/5
+    // POST: Capitals/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        var song = await context.Songs.FindAsync(id);
-        if (song != null)
+        var capital = await context.Capitals.FindAsync(id);
+        if (capital != null)
         {
-            context.Songs.Remove(song);
+            context.Capitals.Remove(capital);
         }
 
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
 
-    private bool SongExists(int id)
+    private bool CapitalExists(int id)
     {
-        return context.Songs.Any(e => e.Id == id);
+        return context.Capitals.Any(e => e.Id == id);
     }
 }

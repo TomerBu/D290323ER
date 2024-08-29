@@ -14,5 +14,4 @@ public class Song
     //Navigation props:
     public Album? Album { get; set; }
 
-    
 }

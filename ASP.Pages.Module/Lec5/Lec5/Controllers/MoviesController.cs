@@ -1,29 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Lec5.Data;
+﻿using Lec5.Data;
 using Lec5.Models;
 using Lec5.ViewModels;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lec5.Controllers;
 
-public class SongsController(Lec5Context context) : Controller
+public class MoviesController(Lec5Context context) : Controller
 {
-
-    // GET: Songs
+    // GET: Movies
     public async Task<IActionResult> Index()
     {
-        //SELECT * FROM Song JOIN Album ON ...
-        var songs = await context.Songs.Include(s => s.Album).ToListAsync();
-       
-        return View(songs);
+        var movies = await context.Movies.Include(m => m.Genres).ToListAsync();
+        return View(movies);
     }
 
-    // GET: Songs/Details/5
+    // GET: Movies/Details/5
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -31,46 +23,62 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs
-            .Include(s => s.Album)
+        var movie = await context.Movies
             .FirstOrDefaultAsync(m => m.Id == id);
-
-        if (song == null)
+        if (movie == null)
         {
             return NotFound();
         }
 
-        return View(song);
+        return View(movie);
     }
 
-    // GET: Songs/Create
+    // GET: Movies/Create
     public async Task<IActionResult> Create()
     {
-        //SHOW A Dropdown of albums:
-        var albums = await context.Albums.ToListAsync();
- 
-        var vm = new SongAlbumsViewModel() { Albums = albums};
+        //List<Genre> => List<GenreSelect>
+        var genres = await context.Genres.ToListAsync();
 
+        var vm = new MovieWithGenresViewModel()
+        {
+            Genres = genres.Select(g => new SelectGenre()
+            {
+                Name = g.Name,
+                Id = g.Id,
+                IsSelected = false
+            }).ToList()
+        };
         return View(vm);
     }
 
-    // POST: Songs/Create
+    // POST: Movies/Create
     // To protect from overposting attacks, enable the specific properties you want to bind to.
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create(SongAlbumsViewModel vm)
+    public async Task<IActionResult> Create(MovieWithGenresViewModel vm)
     {
+        //copy the selected genre to the Movie
         if (ModelState.IsValid)
         {
-            context.Add(vm.Song);
+            var genres = vm.Genres
+            .Where(g => g.IsSelected)
+            .Select(g => new Genre() { Name = g.Name, Id = g.Id })
+            .ToList();
+
+            //attach the genres to ef:
+            genres.ForEach(e => context.Attach(e));
+
+            vm.Movie.Genres = genres;
+
+            context.Add(vm.Movie);
             await context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
         return View(vm);
     }
 
-    // GET: Songs/Edit/5
+    // GET: Movies/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -78,22 +86,22 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs.FindAsync(id);
-        if (song == null)
+        var movie = await context.Movies.FindAsync(id);
+        if (movie == null)
         {
             return NotFound();
         }
-        return View(song);
+        return View(movie);
     }
 
-    // POST: Songs/Edit/5
+    // POST: Movies/Edit/5
     // To protect from overposting attacks, enable the specific properties you want to bind to.
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Title")] Song song)
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Title")] Movie movie)
     {
-        if (id != song.Id)
+        if (id != movie.Id)
         {
             return NotFound();
         }
@@ -102,12 +110,12 @@ public class SongsController(Lec5Context context) : Controller
         {
             try
             {
-                context.Update(song);
+                context.Update(movie);
                 await context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!SongExists(song.Id))
+                if (!MovieExists(movie.Id))
                 {
                     return NotFound();
                 }
@@ -118,10 +126,10 @@ public class SongsController(Lec5Context context) : Controller
             }
             return RedirectToAction(nameof(Index));
         }
-        return View(song);
+        return View(movie);
     }
 
-    // GET: Songs/Delete/5
+    // GET: Movies/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -129,33 +137,33 @@ public class SongsController(Lec5Context context) : Controller
             return NotFound();
         }
 
-        var song = await context.Songs
+        var movie = await context.Movies
             .FirstOrDefaultAsync(m => m.Id == id);
-        if (song == null)
+        if (movie == null)
         {
             return NotFound();
         }
 
-        return View(song);
+        return View(movie);
     }
 
-    // POST: Songs/Delete/5
+    // POST: Movies/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        var song = await context.Songs.FindAsync(id);
-        if (song != null)
+        var movie = await context.Movies.FindAsync(id);
+        if (movie != null)
         {
-            context.Songs.Remove(song);
+            context.Movies.Remove(movie);
         }
 
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
 
-    private bool SongExists(int id)
+    private bool MovieExists(int id)
     {
-        return context.Songs.Any(e => e.Id == id);
+        return context.Movies.Any(e => e.Id == id);
     }
 }

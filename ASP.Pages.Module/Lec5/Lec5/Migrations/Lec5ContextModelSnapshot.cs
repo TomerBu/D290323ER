@@ -37,6 +37,19 @@ namespace Lec5.Migrations
                     b.ToTable("GenreMovie");
                 });
 
+            modelBuilder.Entity("Lec5.Data.MovieGenres", b =>
+                {
+                    b.Property<int>("MoviesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GenresId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MoviesId", "GenresId");
+
+                    b.ToTable("MovieGenres");
+                });
+
             modelBuilder.Entity("Lec5.Models.Album", b =>
                 {
                     b.Property<int>("Id")

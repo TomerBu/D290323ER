@@ -13,6 +13,5 @@ public class Capital
     public int CountryId { get; set; }
 
     //Navigation Properties:
-    public required Country Country { get; set; }
- 
+    public  Country? Country { get; set; }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\D290323ER\\Lec7\\Lec7\\Lec7.csproj": {}
+    "C:\\D290323ER\\ASP.Pages.Module\\Lec7\\Lec7\\Lec7.csproj": {}
   },
   "projects": {
-    "C:\\D290323ER\\Lec7\\Lec7\\Lec7.csproj": {
+    "C:\\D290323ER\\ASP.Pages.Module\\Lec7\\Lec7\\Lec7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D290323ER\\Lec7\\Lec7\\Lec7.csproj",
+        "projectUniqueName": "C:\\D290323ER\\ASP.Pages.Module\\Lec7\\Lec7\\Lec7.csproj",
         "projectName": "Lec7",
-        "projectPath": "C:\\D290323ER\\Lec7\\Lec7\\Lec7.csproj",
+        "projectPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec7\\Lec7\\Lec7.csproj",
         "packagesPath": "C:\\Users\\TomerBu\\.nuget\\packages\\",
-        "outputPath": "C:\\D290323ER\\Lec7\\Lec7\\obj\\",
+        "outputPath": "C:\\D290323ER\\ASP.Pages.Module\\Lec7\\Lec7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TomerBu\\AppData\\Roaming\\NuGet\\NuGet.Config",

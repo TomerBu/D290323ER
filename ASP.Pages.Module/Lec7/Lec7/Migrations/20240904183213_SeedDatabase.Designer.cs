@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lec7.Migrations
 {
     [DbContext(typeof(Lec7Context))]
-    [Migration("20240901155243_Auth")]
-    partial class Auth
+    [Migration("20240904183213_SeedDatabase")]
+    partial class SeedDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -93,6 +93,25 @@ namespace Lec7.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "B87B5C23-CCB2-4DB0-925E-95224DF0A2F9",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "875937ec-6125-4463-ab41-f57244cbf986",
+                            Email = "TomerBu@gmail.com",
+                            EmailConfirmed = false,
+                            Language = "C#",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "TOMERBU@GMAIL.COM",
+                            NormalizedUserName = "TOMERBU@GMAIL.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMDQIGobhJZY2aw5tUC2N3sQ2NMYNQNQnCAJYuI8HcBop7N0z493wr8vQlXnucNh0Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "7d09cc81-0c24-41c1-8368-528479a8a6ba",
+                            TwoFactorEnabled = false,
+                            UserName = "TomerBu@gmail.com"
+                        });
                 });
 
             modelBuilder.Entity("Lec7.Models.Product", b =>
@@ -137,6 +156,18 @@ namespace Lec7.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            Name = "User"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -224,6 +255,13 @@ namespace Lec7.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "B87B5C23-CCB2-4DB0-925E-95224DF0A2F9",
+                            RoleId = "1"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

@@ -17,79 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lec7
 build_property.RootNamespace = Lec7
-build_property.ProjectDir = C:\D290323ER\Lec7\Lec7\
+build_property.ProjectDir = C:\D290323ER\ASP.Pages.Module\Lec7\Lec7\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\D290323ER\Lec7\Lec7
+build_property.MSBuildProjectDirectory = C:\D290323ER\ASP.Pages.Module\Lec7\Lec7
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Auth/Login.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Auth/Logout.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Auth/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Auth/Manage.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Auth/Manage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxNYW5hZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Auth/Register.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Home/Index.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Home/Privacy.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Products/Create.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Products/Delete.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Products/Details.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Products/Edit.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Products/Index.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Shared/Error.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Shared/_LoginPartial.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/_ViewImports.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/_ViewStart.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/D290323ER/Lec7/Lec7/Views/Shared/_Layout.cshtml]
+[C:/D290323ER/ASP.Pages.Module/Lec7/Lec7/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7733otmt52

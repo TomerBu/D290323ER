@@ -12,10 +12,17 @@ namespace Lec7
             builder.Services.AddDbContext<Lec7Context>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Lec7Context") ?? throw new InvalidOperationException("Connection string 'Lec7Context' not found.")));
 
+            var lockoutOptions = new LockoutOptions()
+            {
+                DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5),
+                MaxFailedAccessAttempts = 5,
+                AllowedForNewUsers = false
+            };
 
             builder.Services
                 .AddIdentity<AppUser, IdentityRole>(options =>
                 {
+                    options.Lockout = lockoutOptions;
                     options.User.RequireUniqueEmail = true;
                     options.Password.RequireNonAlphanumeric = false;
                     options.Password.RequireDigit = false;
@@ -24,6 +31,11 @@ namespace Lec7
                     options.Password.RequiredLength = 6;
                 })
                 .AddEntityFrameworkStores<Lec7Context>();
+
+            builder.Services.ConfigureApplicationCookie(options => {
+                options.LoginPath = "/Auth/Login";
+                options.AccessDeniedPath = "/Auth/AccessDenied";
+            });
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

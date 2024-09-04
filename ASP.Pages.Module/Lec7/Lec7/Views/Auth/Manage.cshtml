@@ -1,5 +1,38 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model ManageViewModel
+
 @{
+    ViewData["Title"] = "Manage";
+    string username = ViewBag.UserName;
+}
+
+<h1>Edit Your Profile @username</h1>
+
+<div class="row">
+    <form asp-action="Manage" method="post">
+        <div asp-validation-summary="All"></div>
+
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input class="form-control" type="password" asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="NewPassword"></label>
+            <input class="form-control" type="password" asp-for="NewPassword" />
+            <span asp-validation-for="NewPassword"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Language"></label>
+            <input class="form-control" asp-for="Language" />
+            <span asp-validation-for="Language"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-2">Save Changes</button>
+    </form>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
 }

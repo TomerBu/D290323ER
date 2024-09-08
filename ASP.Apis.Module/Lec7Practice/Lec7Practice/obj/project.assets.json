@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
+      "projectUniqueName": "C:\\D290323ER\\ASP.Apis.Module\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
       "projectName": "Lec7Practice",
-      "projectPath": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
+      "projectPath": "C:\\D290323ER\\ASP.Apis.Module\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
       "packagesPath": "C:\\Users\\TomerBu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\obj\\",
+      "outputPath": "C:\\D290323ER\\ASP.Apis.Module\\Lec7Practice\\Lec7Practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TomerBu\\AppData\\Roaming\\NuGet\\NuGet.Config",

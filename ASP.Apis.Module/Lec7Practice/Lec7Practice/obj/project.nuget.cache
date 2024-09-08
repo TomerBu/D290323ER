@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OfcRi5xVWok=",
+  "dgSpecHash": "pArYQWgmvfY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TomerBu\\source\\repos\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
+  "projectFilePath": "C:\\D290323ER\\ASP.Apis.Module\\Lec7Practice\\Lec7Practice\\Lec7Practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TomerBu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\TomerBu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

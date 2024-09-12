@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "K0Cjz8bHNHECqQJmWKzGPX5RCWtuCzlXbORJ8Ng3Mj8=",
+  "Hash": "Z96R6NW00dI/tgWYe57B5ZBeU26/atiaw0xlF+7ib1s=",
   "Source": "FinalAPI",
   "BasePath": "_content/FinalAPI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\DAL.csproj",
+      "Version": 2,
+      "Source": "DAL",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

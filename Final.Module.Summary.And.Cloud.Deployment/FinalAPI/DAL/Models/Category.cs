@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Models;
+﻿namespace DAL.Models;
 
 public class Category
 {

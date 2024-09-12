@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DataAccess.Models;
+namespace DAL.Models;
 
 public class Product
 {

@@ -21,7 +21,7 @@ namespace DAL.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("DataAccess.Models.Category", b =>
+            modelBuilder.Entity("DAL.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,9 +36,26 @@ namespace DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Toys"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Electronics"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Games"
+                        });
                 });
 
-            modelBuilder.Entity("DataAccess.Models.Product", b =>
+            modelBuilder.Entity("DAL.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,11 +86,31 @@ namespace DAL.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 2,
+                            Description = "A Computer",
+                            ImageUrl = "",
+                            Name = "Macbook Pro",
+                            Price = 999.9m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Description = "A Wooden Toy car",
+                            ImageUrl = "",
+                            Name = "Toy car",
+                            Price = 10.0m
+                        });
                 });
 
-            modelBuilder.Entity("DataAccess.Models.Product", b =>
+            modelBuilder.Entity("DAL.Models.Product", b =>
                 {
-                    b.HasOne("DataAccess.Models.Category", "Category")
+                    b.HasOne("DAL.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -82,7 +119,7 @@ namespace DAL.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("DataAccess.Models.Category", b =>
+            modelBuilder.Entity("DAL.Models.Category", b =>
                 {
                     b.Navigation("Products");
                 });

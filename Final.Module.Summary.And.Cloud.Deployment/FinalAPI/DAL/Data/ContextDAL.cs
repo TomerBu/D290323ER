@@ -1,9 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DAL.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace DAL.Data;
 
-public class ContextDAL(DbContextOptions<ContextDAL> options) : DbContext(options)
+public class ContextDAL(DbContextOptions<ContextDAL> options) :
+    IdentityDbContext<AppUser, IdentityRole<int>, int>(options)
 {
     public DbSet<Category> Categories { get; set; } = default!;
     public DbSet<Product> Products { get; set; } = default!;
@@ -47,5 +50,37 @@ public class ContextDAL(DbContextOptions<ContextDAL> options) : DbContext(option
                     Price = 10.0M
                 }
                 ]);
+
+        modelBuilder.Entity<IdentityRole<int>>()
+            .HasData([
+                new IdentityRole<int>(){
+                    Id = 1,
+                    Name = "admin",
+                    NormalizedName = "ADMIN",
+                    ConcurrencyStamp = Guid.NewGuid().ToString()
+                }
+            ]);
+
+        var hasher = new PasswordHasher<AppUser>();
+
+        modelBuilder.Entity<AppUser>()
+            .HasData([
+                new AppUser(){
+                    Id = 1,
+                    Email = "tomerbu@gmail.com",
+                    NormalizedEmail = "TOMERBU@GMAIL.COM",
+                    UserName = "TomerBu",
+                    NormalizedUserName = "TOMERBU",
+                    ConcurrencyStamp = Guid.NewGuid().ToString(),
+                    PasswordHash = hasher.HashPassword(null, "123456")
+                }
+            ]);
+
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData([
+            new IdentityUserRole<int>(){
+                RoleId = 1,
+                UserId = 1,
+            }
+        ]);
     }
 }

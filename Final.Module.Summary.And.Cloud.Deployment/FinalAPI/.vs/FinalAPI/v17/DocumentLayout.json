@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\data\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\finalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\finalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181946_SeedAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\Migrations\\20240915181946_SeedAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181649_SeedAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\Migrations\\20240915181649_SeedAuth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsRepository.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ProductsRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Data\\ProductsRepository.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ProductsRepository.cs",
-              "RelativeToolTip": "DAL\\Data\\ProductsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:11:35.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "FinalAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAjAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FinalAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FinalAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:01:52.575Z",
+              "WhenOpened": "2024-09-15T18:21:07.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\DTOs\\ProductDto.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\DTOs\\ProductDto.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\DTOs\\ProductDto.cs",
-              "RelativeToolTip": "FinalAPI\\DTOs\\ProductDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAcAAAAAAAAA",
+              "Title": "FinalAPI",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\FinalAPI.csproj",
+              "RelativeDocumentMoniker": "FinalAPI\\FinalAPI.csproj",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\FinalAPI.csproj",
+              "RelativeToolTip": "FinalAPI\\FinalAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-15T18:20:56.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240915181946_SeedAuth.cs",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181946_SeedAuth.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240915181946_SeedAuth.cs",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181946_SeedAuth.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240915181946_SeedAuth.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T17:46:44.127Z",
+              "WhenOpened": "2024-09-15T18:19:46.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240915181649_SeedAuth.cs",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181649_SeedAuth.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20240915181649_SeedAuth.cs",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20240915181649_SeedAuth.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20240915181649_SeedAuth.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:16:49.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContextDAL.cs",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ContextDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\Data\\ContextDAL.cs",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ContextDAL.cs",
+              "RelativeToolTip": "DAL\\Data\\ContextDAL.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwEkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:03:23.108Z",
               "EditorCaption": ""
             }
           ]

@@ -7,6 +7,9 @@ public sealed class ProductsRepository(ContextDAL context) : Repository<Product>
 {
     public override IEnumerable<Product> GetAll()
     {
+        //AIM: Products with Categories:
+
+        //1) fetch from db:
         return context.Products.Include(p => p.Category);
     }
 

@@ -16,6 +16,7 @@ public class JwtService(IConfiguration configuration, UserManager<AppUser> userM
         //JWT is a collection of claims
         var claims = new List<Claim>()
         {
+            new Claim("isVIP", "true"),
             new Claim(JwtRegisteredClaimNames.Sub, user.UserName),
             new Claim(JwtRegisteredClaimNames.Email, user.Email),
         };

@@ -71,7 +71,7 @@ public class ContextDAL(DbContextOptions<ContextDAL> options) :
                     NormalizedEmail = "TOMERBU@GMAIL.COM",
                     UserName = "TomerBu",
                     NormalizedUserName = "TOMERBU",
-                    ConcurrencyStamp = Guid.NewGuid().ToString(),
+                    SecurityStamp = Guid.NewGuid().ToString(),
                     PasswordHash = hasher.HashPassword(null, "123456")
                 }
             ]);

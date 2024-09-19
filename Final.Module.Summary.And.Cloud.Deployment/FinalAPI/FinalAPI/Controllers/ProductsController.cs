@@ -1,5 +1,6 @@
 ﻿using DAL.Data;
 using FinalAPI.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinalAPI.Controllers;
@@ -7,7 +8,10 @@ namespace FinalAPI.Controllers;
 [Route("api/[controller]")]
 [ApiController]
 
-public class ProductsController(ProductsRepository repository) : ControllerBase
+public class ProductsController(
+    ProductsRepository repository,
+    CategoryRepository categoryRepository
+    ) : ControllerBase
 {
     [HttpGet]
     public ActionResult GetProducts()
@@ -30,4 +34,30 @@ public class ProductsController(ProductsRepository repository) : ControllerBase
         }
         return Ok(product.ToDto());
     }
+
+    //CAN ADD PRODUCT ONLY WITH VALID JWT
+    [HttpPost]
+    [Authorize(Roles = "admin")]
+    public ActionResult AddProduct(CreateProductDto dto)
+    {
+        if (User.Claims.Any(c => c.Type == "isHappy" && c.Value == "true")) {
+            Console.WriteLine("Welcome Happy Person");
+        }
+
+        if (ModelState.IsValid)
+        {
+            var category = categoryRepository.GetById(dto.CategoryId);
+            if (category is null)
+            {
+                return BadRequest(new { message = "Invalid Category" });
+            }
+            var product = dto.ToProduct();
+            
+            repository.Add(product);
+            product.Category = category;
+            return CreatedAtAction(nameof(GetProductById), new { id = product.Id }, product.ToDto());
+        }
+        return BadRequest(ModelState);
+    }
+
 }

@@ -94,14 +94,15 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "66b5dbfc-156c-4a9f-a8ae-1ec29475167b",
+                            ConcurrencyStamp = "02c0bfb4-92aa-48e1-8f8d-033dda8493a6",
                             Email = "tomerbu@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "TOMERBU@GMAIL.COM",
                             NormalizedUserName = "TOMERBU",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMFfm4JDdFnBzk0cerJsH+0idqUv7Lus7Wc+WkSspg8pNmvNuWgjUhq45oR+a77utw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFgwoitGr1A+kfQWiHS1v5n2FZlUy18/yakPxwleqI8HANdZ8APUdA5H+TfgpGow4A==",
                             PhoneNumberConfirmed = false,
+                            SecurityStamp = "2a97f33e-c7a2-45d5-91a3-c2c5f371aabe",
                             TwoFactorEnabled = false,
                             UserName = "TomerBu"
                         });
@@ -227,7 +228,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "060bacf3-3483-444d-9655-7dcdda92f673",
+                            ConcurrencyStamp = "fc4920df-235c-4cb1-88ce-d715c19f7e5d",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });

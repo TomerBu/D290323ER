@@ -13,12 +13,12 @@ namespace DAL.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { 1, "060bacf3-3483-444d-9655-7dcdda92f673", "admin", "ADMIN" });
+                values: new object[] { 1, "fc4920df-235c-4cb1-88ce-d715c19f7e5d", "admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1, 0, "66b5dbfc-156c-4a9f-a8ae-1ec29475167b", "tomerbu@gmail.com", false, false, null, "TOMERBU@GMAIL.COM", "TOMERBU", "AQAAAAIAAYagAAAAEMFfm4JDdFnBzk0cerJsH+0idqUv7Lus7Wc+WkSspg8pNmvNuWgjUhq45oR+a77utw==", null, false, null, false, "TomerBu" });
+                values: new object[] { 1, 0, "02c0bfb4-92aa-48e1-8f8d-033dda8493a6", "tomerbu@gmail.com", false, false, null, "TOMERBU@GMAIL.COM", "TOMERBU", "AQAAAAIAAYagAAAAEFgwoitGr1A+kfQWiHS1v5n2FZlUy18/yakPxwleqI8HANdZ8APUdA5H+TfgpGow4A==", null, false, "2a97f33e-c7a2-45d5-91a3-c2c5f371aabe", false, "TomerBu" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

@@ -11,7 +11,7 @@ namespace FinalAPI.Controllers;
 public class AuthController(
     UserManager<AppUser> userManager,
     SignInManager<AppUser> signInManager,
-    RoleManager<AppUser> roleManager,
+    RoleManager<IdentityRole<int>> roleManager,
     JwtService jwtService
     ) : ControllerBase
 {

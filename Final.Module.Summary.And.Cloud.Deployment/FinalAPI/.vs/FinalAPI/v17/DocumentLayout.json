@@ -46,21 +46,19 @@
               "RelativeToolTip": "DAL\\Data\\ContextDAL.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T17:00:59.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T17:00:59.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DAL",
+              "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
               "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\DAL.csproj",
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-18T17:00:53.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T17:00:53.507Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "FinalAPI\\Services\\JwtService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:49:08.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T16:49:08.766Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "FinalAPI\\DTOs\\CreateProductDto.cs",
               "ViewState": "AQIAABAAAAAAAAAAAIAwwBYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:11:06.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T15:11:06.898Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "FinalAPI\\Controllers\\ProductsController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAYwCcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:08:55.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T15:08:55.323Z"
             }
           ]
         }

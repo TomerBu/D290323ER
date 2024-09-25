@@ -3,10 +3,14 @@ import { useState } from "react";
 import * as Yup from "yup";
 import Spinner from "../components/Spinner";
 import { dialog, showErrorDialog, showSuccessDialog } from "../dialogs/dialogs";
+import { auth } from "../services/auth-service";
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>();
+
+  const navigate = useNavigate();
 
   const validationSchema = Yup.object({
     email: Yup.string().email("Bad Email!").required("The email is required"),
@@ -36,13 +40,19 @@ const Register = () => {
       validationSchema={validationSchema}
       onSubmit={(o) => {
         setIsLoading(true);
-        dialog.success("User Registered Successfully");
-       
-        //async task
-        setTimeout(() => {
-          setIsLoading(false);
-          setError(null);
-        }, 2000);
+        auth
+          .register(o.email, o.username, o.password)
+          .then((response) => {
+            showSuccessDialog("Registration Successful").then(() => {
+              navigate("/login");
+            });
+          })
+          .catch((error) => {
+            showErrorDialog("Registration Failed");
+          })
+          .finally(() => {
+            setIsLoading(false);
+          });
       }}
     >
       <Form className="flex flex-col items-center">

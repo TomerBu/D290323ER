@@ -1,9 +1,13 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
+import { useState } from "react";
 import * as Yup from "yup";
+import Spinner from "../components/Spinner";
+import { dialog, showErrorDialog, showSuccessDialog } from "../dialogs/dialogs";
 
 const Register = () => {
-  // Email, Username, Password
-  //Todo: Confirm password if needed
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string>();
+
   const validationSchema = Yup.object({
     email: Yup.string().email("Bad Email!").required("The email is required"),
     username: Yup.string().required().min(2).max(20),
@@ -31,11 +35,19 @@ const Register = () => {
       initialValues={initialValues}
       validationSchema={validationSchema}
       onSubmit={(o) => {
-        
-        alert(o.email);
+        setIsLoading(true);
+        dialog.success("User Registered Successfully");
+       
+        //async task
+        setTimeout(() => {
+          setIsLoading(false);
+          setError(null);
+        }, 2000);
       }}
     >
       <Form className="flex flex-col items-center">
+        {isLoading && <Spinner title="WaitUp!" />}
+        {error && <p className="text-red-500">{error}</p>}
         <div className="font-extralight form-group flex flex-col gap-2 w-1/2 mx-auto text-lg my-4">
           <label htmlFor="username">User Name</label>
           <Field
@@ -93,8 +105,9 @@ const Register = () => {
         </div>
 
         <button
+          disabled={isLoading}
           type="submit"
-          className="bg-blue-500 w-1/2   block text-left hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-4"
+          className="bg-blue-500 disabled:bg-blue-500/50 w-1/2   block text-left hover:bg-blue-700 text-white font-bold py-2 px-4 rounded my-4"
         >
           Register
         </button>

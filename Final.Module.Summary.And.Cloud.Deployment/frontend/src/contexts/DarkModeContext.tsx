@@ -3,7 +3,7 @@
 //state variable: isDark
 //function to toggle dark mode
 
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 const initialValues = {
   darkMode: false,
@@ -14,12 +14,27 @@ const DarkModeContext = createContext(initialValues);
 
 function DarkModeProvider({ children }) {
 
-  //state variables:  
+  useEffect(() => {
+    const mode = localStorage.getItem("darkMode");
+    if (mode === "dark") {
+      setDarkMode(true);
+      document.body.classList.toggle("dark");
+    }
+  }, []);
+ 
   const [darkMode, setDarkMode] = useState(false);
 
   //functions:
   function toggle() {
+    //calculate the new state as a string: "dark" or "light":
+    const newMode = !darkMode ? "dark" : "light";
+
+    //save the new state to local storage:
+    localStorage.setItem("darkMode", newMode);
+
     setDarkMode((prev) => !prev);
+
+    document.body.classList.toggle("dark");
   }
 
   return (
@@ -32,6 +47,3 @@ function DarkModeProvider({ children }) {
 export { DarkModeProvider, DarkModeContext };
 
 //useContext(DarkModeContext) to access the context in a component
-
-
-

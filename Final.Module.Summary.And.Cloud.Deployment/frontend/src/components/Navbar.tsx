@@ -2,17 +2,13 @@ import { BsGithub } from "react-icons/bs";
 import { SiHomebridge } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
-import { useContext } from "react";
-import { DarkModeContext } from "../contexts/DarkModeContext";
-import { AuthContext } from "../contexts/AuthContext";
 import { BiLogOut } from "react-icons/bi";
+import useAuth from "../hooks/useAuth";
+import useDarkMode from "../hooks/useDarkMode";
 
-//1) if the user is logged in: show the logout button
-//2) if the user is not logged in: show the login and register buttons
-//3) only show the products page if the user is logged in
 const Navbar = () => {
-  const { darkMode, toggle } = useContext(DarkModeContext);
-  const { isLoggedIn, logout } = useContext(AuthContext);
+  const { darkMode, toggle } = useDarkMode();
+  const { isLoggedIn, logout } = useAuth();
   return (
     <nav
       id="app-nav"

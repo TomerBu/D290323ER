@@ -5,12 +5,11 @@
 
 import { createContext, useEffect, useState } from "react";
 
-const initialValues = {
-  darkMode: false,
-  toggle: () => {},
-};
-
-const DarkModeContext = createContext(initialValues);
+export interface DarkModeContextType {
+  darkMode: boolean;
+  toggle: () => void;
+}
+const DarkModeContext = createContext<DarkModeContextType>(null);
 
 function DarkModeProvider({ children }) {
 

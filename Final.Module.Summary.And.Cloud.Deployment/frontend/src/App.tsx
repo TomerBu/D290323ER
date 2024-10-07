@@ -9,8 +9,8 @@ import Navbar from "./components/Navbar";
 import "./App.css";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NoAuthRoute from "./components/NoAuthRoute";
+import Product from "./routes/Product";
 const App = () => {
-  
   return (
     <>
       <Navbar />
@@ -38,6 +38,15 @@ const App = () => {
           element={
             <ProtectedRoute>
               <Products />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/products/:id"
+          element={
+            <ProtectedRoute>
+              <Product />
             </ProtectedRoute>
           }
         />

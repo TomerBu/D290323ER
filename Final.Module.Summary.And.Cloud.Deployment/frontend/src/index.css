@@ -1,3 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* comment */
+
+h1{
+    color: red;
+}
+
+.site-header{
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+#main-content{
+    background-color: #f4f4f4;
+    padding: 1em;
+}
+
+
+/* both subtitle and title will be blue */
+.title, .subtitle{
+    color: blue;
+}

@@ -10,6 +10,7 @@ import "./App.css";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NoAuthRoute from "./components/NoAuthRoute";
 import Product from "./routes/Product";
+import { useEffect, useState } from "react";
 const App = () => {
   return (
     <>
@@ -58,3 +59,9 @@ const App = () => {
 };
 
 export default App;
+
+
+//api/posts
+//Controller
+  //
+  //[HttpGet]

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\finalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\finalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\migrations\\20241027154759_demos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\20241027154759_demos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\finalapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC286F7A-AB43-44A1-A3AD-13E94EF053DC}|FinalAPI\\FinalAPI.csproj|solutionrelative:finalapi\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|c:\\d290323er\\final.module.summary.and.cloud.deployment\\finalapi\\dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC26203-3A6F-468D-BBA6-6C11B708F444}|DAL\\DAL.csproj|solutionrelative:dal\\data\\contextdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "20241027154759_Demos.cs",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20241027154759_Demos.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\20241027154759_Demos.cs",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Migrations\\20241027154759_Demos.cs",
+              "RelativeToolTip": "DAL\\Migrations\\20241027154759_Demos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:48:00.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinalAPI",
+              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\FinalAPI.csproj",
+              "RelativeDocumentMoniker": "FinalAPI\\FinalAPI.csproj",
+              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\FinalAPI.csproj",
+              "RelativeToolTip": "FinalAPI\\FinalAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T15:46:49.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ContextDAL.cs",
               "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ContextDAL.cs",
               "RelativeDocumentMoniker": "DAL\\Data\\ContextDAL.cs",
               "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\Data\\ContextDAL.cs",
               "RelativeToolTip": "DAL\\Data\\ContextDAL.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T17:00:59.143Z"
+              "WhenOpened": "2024-10-27T15:45:05.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
               "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\DAL\\DAL.csproj",
               "RelativeToolTip": "DAL\\DAL.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-18T17:00:53.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Program.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\Program.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Program.cs",
-              "RelativeToolTip": "FinalAPI\\Program.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwFMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:52:52.39Z",
+              "WhenOpened": "2024-10-27T15:34:18.264Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\Services\\JwtService.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Services\\JwtService.cs",
-              "RelativeToolTip": "FinalAPI\\Services\\JwtService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T16:49:08.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\DTOs\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\DTOs\\CreateProductDto.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\DTOs\\CreateProductDto.cs",
-              "RelativeToolTip": "FinalAPI\\DTOs\\CreateProductDto.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAIAwwBYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:11:06.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "FinalAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\D290323ER\\Final.Module.Summary.And.Cloud.Deployment\\FinalAPI\\FinalAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "FinalAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwCcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T15:08:55.323Z"
             }
           ]
         }

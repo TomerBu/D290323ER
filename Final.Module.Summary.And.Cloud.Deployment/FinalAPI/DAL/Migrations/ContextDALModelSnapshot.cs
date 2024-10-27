@@ -17,10 +17,27 @@ namespace DAL.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.8")
+                .HasAnnotation("ProductVersion", "8.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("DAL.Data.Demo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Demos");
+                });
 
             modelBuilder.Entity("DAL.Models.AppUser", b =>
                 {
@@ -94,15 +111,15 @@ namespace DAL.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "02c0bfb4-92aa-48e1-8f8d-033dda8493a6",
+                            ConcurrencyStamp = "8da57e76-47cf-4d38-be37-96d19eb042d7",
                             Email = "tomerbu@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "TOMERBU@GMAIL.COM",
                             NormalizedUserName = "TOMERBU",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFgwoitGr1A+kfQWiHS1v5n2FZlUy18/yakPxwleqI8HANdZ8APUdA5H+TfgpGow4A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENPJXy8nAmiaEjFewxxwEsOWv9V9BxibD8yctnjdgAGHuw/KsjXkFYohKG8WQTpEPw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2a97f33e-c7a2-45d5-91a3-c2c5f371aabe",
+                            SecurityStamp = "e443a1a2-cfd2-4992-8d38-2635fa3f0a2d",
                             TwoFactorEnabled = false,
                             UserName = "TomerBu"
                         });
@@ -228,7 +245,7 @@ namespace DAL.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "fc4920df-235c-4cb1-88ce-d715c19f7e5d",
+                            ConcurrencyStamp = "3e065edb-0781-4626-8557-a0cefe64251c",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });

@@ -1,5 +1,7 @@
-/* comment */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
 h1{
     color: red;
 }
@@ -16,7 +18,8 @@ h1{
 }
 
 
-/* both subtitle and title will be blue */
+// both subtitle and title will be blue  
 .title, .subtitle{
     color: blue;
-}
+} 
+*/
